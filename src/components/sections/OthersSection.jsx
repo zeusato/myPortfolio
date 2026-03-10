@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { HiLanguage, HiHeart } from 'react-icons/hi2';
+import { HiLanguage, HiHeart, HiTrophy } from 'react-icons/hi2';
 
 const stagger = {
     animate: { transition: { staggerChildren: 0.08 } },
@@ -22,17 +22,34 @@ export default function OthersSection({ data }) {
             </motion.div>
 
             <motion.div className="others-grid" variants={stagger}>
+                {/* Achievements */}
+                <motion.div className="others-block highlight-block" variants={fadeUp}>
+                    <h3 className="others-block-title">
+                        <HiTrophy size={20} /> Thành tích khác
+                    </h3>
+                    <div className="achievement-list">
+                        {others.achievements?.map((ach, i) => (
+                            <div key={i} className="achievement-item">
+                                <span className="achievement-title">{ach.title}</span>
+                                <p className="achievement-detail">{ach.detail}</p>
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>
+
                 {/* Languages */}
                 <motion.div className="others-block" variants={fadeUp}>
                     <h3 className="others-block-title">
                         <HiLanguage size={20} /> Languages
                     </h3>
-                    {others.languages.map((lang, i) => (
-                        <div key={i} className="language-item">
-                            <span className="language-name">{lang.name}</span>
-                            <span className="language-level">{lang.level}</span>
-                        </div>
-                    ))}
+                    <div className="language-list">
+                        {others.languages.map((lang, i) => (
+                            <div key={i} className="language-item">
+                                <span className="language-name">{lang.name}</span>
+                                <span className="language-level">{lang.level}</span>
+                            </div>
+                        ))}
+                    </div>
                 </motion.div>
 
                 {/* Interests */}

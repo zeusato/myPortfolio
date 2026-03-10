@@ -1039,6 +1039,48 @@ img {
   transform: translateY(-2px);
 }
 
+.achievement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.achievement-item {
+  position: relative;
+  padding-left: 16px;
+}
+
+.achievement-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.achievement-title {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.achievement-detail {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.highlight-block {
+  border-color: var(--border-accent);
+  background: linear-gradient(145deg, rgba(108, 99, 255, 0.05), rgba(255, 255, 255, 0.01));
+}
+
 /* ============================================
    MODAL
    ============================================ */
