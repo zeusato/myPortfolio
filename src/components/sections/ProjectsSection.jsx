@@ -15,7 +15,7 @@ export default function ProjectsSection({ data, onCardClick }) {
 
         return (
             <div className="project-group">
-                <h3 className="project-group-title">{title}</h3>
+                {title && <h3 className="project-group-title">{title}</h3>}
                 <div className="project-grid">
                     {projects.map((project) => (
                         <motion.div
@@ -56,7 +56,10 @@ export default function ProjectsSection({ data, onCardClick }) {
             </motion.div>
 
             <motion.div variants={stagger}>
-                {renderProjectGroup("Dự án hợp tác", data.projects.collaborative)}
+                <div className="project-main-category" style={{ marginTop: 0, paddingTop: 0, borderTop: 'none' }}>
+                    <h2 className="category-title">Dự án hợp tác</h2>
+                    {renderProjectGroup("", data.projects.collaborative)}
+                </div>
 
                 <div className="project-main-category">
                     <h2 className="category-title">Dự án cá nhân</h2>

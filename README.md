@@ -1,16 +1,100 @@
-# React + Vite
+# 🌟 Nguyễn Mạnh Quyết's Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](./public/og_image.png)
 
-Currently, two official plugins are available:
+A modern, high-performance personal portfolio showcasing my experience, skills, and projects as a **Product Systems Team Lead**. Built with cutting-edge web technologies and designed with a premium glassmorphic UI to reflect professionalism and technical expertise.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
 
-## React Compiler
+- **Modern Tech Stack**: Powered by **React 19** and **Vite** for lightning-fast performance and seamless development.
+- **Fluid Animations**: Beautiful page transitions and micro-interactions using **Framer Motion**.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices with a custom Sidebar and Mobile Header.
+- **Glassmorphism UI**: Premium visual aesthetics featuring frosted glass effects, dynamic blurs, and sophisticated gradients.
+- **Centralized Data**: Easy to update all textual content, links, and images via a single `/src/data.js` file.
+- **Comprehensive Project Showcase**: Categorized portfolio displaying:
+  - Collaborative FinTech/Enterprise Projects
+  - Major Personal Projects (Web Apps, PWA)
+  - Minor Personal Projects (AI Tools, Utilities)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Styling**: Vanilla CSS with CSS Variables & Modern CSS Features
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (Hi2, Fa)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+myCV/
+├── public/              # Static assets (images, logos, thumbnails)
+├── src/
+│   ├── components/      # Reusable React components
+│   │   ├── sections/    # Main content sections (About, Experience, Projects, etc.)
+│   │   ├── MainContent.jsx 
+│   │   ├── MobileHeader.jsx
+│   │   └── ...
+│   ├── data.js          # 📝 All portfolio content & data lives here
+│   ├── App.jsx          # Root component & state management
+│   ├── main.jsx         # React application entry point
+│   └── index.css        # Global variables, themes, and styles
+├── index.html           # HTML template
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
+```
+
+## 🚀 Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/zeusato/myPortfolio.git
+   cd myCV
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Build for production**
+   ```bash
+   npm run build
+   # or
+   yarn build
+   ```
+
+## 📝 How to Customize
+
+This portfolio is designed to be easily customizable without digging deep into the component code.
+
+Update your information by editing the `src/data.js` file:
+- **`profile`**: Name, Role, Contact Information, and Social Links.
+- **`about`**: Headline, Description, and Key Highlights.
+- **`experience` & `education`**: Add or remove items using the provided structure.
+- **`projects`**: Organize your work into `collaborative`, `personalMajor`, and `personalMinor`.
+- **`skills` & `others`**: Technical skills, languages, and specific achievements.
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+*Crafted with ❤️ by [Nguyễn Mạnh Quyết](https://github.com/zeusato)*
