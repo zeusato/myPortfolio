@@ -9,7 +9,7 @@ const portfolioData = {
         avatar: "/_task_recreate_image_realistic_photo_2 (4).jpeg",
         email: "manhquyet88@gmail.com",
         phone: "+84 96 308 2588",
-        location: "Hanoi, Vietnam",
+        location: "Hà Nội, Việt Nam",
         socials: [
             { name: "Facebook", icon: "FaFacebook", url: "https://facebook.com/zeusato" },
             { name: "GitHub", icon: "FaGithub", url: "https://github.com/zeusato" },
@@ -46,7 +46,7 @@ const portfolioData = {
             id: "exp-1",
             title: "Trưởng nhóm Phát triển Sản phẩm Hệ thống",
             company: "Công ty Cổ phần Chứng khoán Sài Gòn Hà Nội",
-            period: "2024 - Present",
+            period: "2024 - Hiện tại",
             icon: "HiCommandLine",
             logo: "/logo.png",
             shortDesc:
@@ -330,16 +330,16 @@ const portfolioData = {
 
     others: {
         languages: [
-            { name: "Vietnamese", level: "Native" },
-            { name: "English", level: "Professional (IELTS 7.5)" },
+            { name: "Tiếng Việt", level: "Bản ngữ" },
+            { name: "Tiếng Anh", level: "Thành thạo (IELTS 7.5)" },
         ],
         interests: [
-            "Open Source Contribution",
-            "UI/UX Research",
-            "Photography",
-            "Mechanical Keyboards",
-            "Coffee Brewing",
-            "Painting",
+            "Đóng góp mã nguồn mở",
+            "Nghiên cứu UI/UX",
+            "Nhiếp ảnh",
+            "Bàn phím cơ",
+            "Pha cà phê",
+            "Hội họa",
         ],
         achievements: [
             { title: "Giải nhất cuộc thi Rise of Inovation tại SHS", detail: "Dự án Senergy: Hệ sinh thái tiện ích văn phòng tích hợp trợ lý ảo - Năm 2024" },

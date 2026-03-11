@@ -102,7 +102,7 @@ export default function LandingScreen({ data, onEnter }) {
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.97 }}
                 >
-                    <span>Enter Portfolio</span>
+                    <span>Xem Hồ Sơ</span>
                     <HiArrowRight className="arrow" />
                 </motion.button>
             </motion.div>

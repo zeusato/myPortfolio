@@ -17,7 +17,7 @@ export default function OthersSection({ data }) {
         <motion.section variants={stagger} initial="initial" animate="animate">
             <motion.div className="section-header" variants={fadeUp}>
                 <h2 className="section-title">
-                    Other <span className="gradient-text">Details</span>
+                    Thông tin <span className="gradient-text">Khác</span>
                 </h2>
             </motion.div>
 
@@ -40,7 +40,7 @@ export default function OthersSection({ data }) {
                 {/* Languages */}
                 <motion.div className="others-block" variants={fadeUp}>
                     <h3 className="others-block-title">
-                        <HiLanguage size={20} /> Languages
+                        <HiLanguage size={20} /> Ngoại ngữ
                     </h3>
                     <div className="language-list">
                         {others.languages.map((lang, i) => (
@@ -55,7 +55,7 @@ export default function OthersSection({ data }) {
                 {/* Interests */}
                 <motion.div className="others-block" variants={fadeUp}>
                     <h3 className="others-block-title">
-                        <HiHeart size={20} /> Interests
+                        <HiHeart size={20} /> Sở thích
                     </h3>
                     <div className="interest-tags">
                         {others.interests.map((item, i) => (

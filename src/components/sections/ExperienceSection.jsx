@@ -3,8 +3,8 @@ import ListSection from './ListSection';
 export default function ExperienceSection({ data, onCardClick }) {
     return (
         <ListSection
-            title="Work"
-            titleAccent="Experience"
+            title="Kinh nghiệm"
+            titleAccent="Làm việc"
             items={data.experience}
             onCardClick={onCardClick}
         />

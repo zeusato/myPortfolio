@@ -132,7 +132,7 @@ export default function Modal({ data, onClose }) {
                             <div className="modal-detail">{renderContent(data.detail)}</div>
                             {data.link && data.link !== '#' && (
                                 <a href={data.link} target="_blank" rel="noreferrer" className="modal-link-btn">
-                                    View Project <HiArrowTopRightOnSquare />
+                                    Xem Dự án <HiArrowTopRightOnSquare />
                                 </a>
                             )}
                         </>

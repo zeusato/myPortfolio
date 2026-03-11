@@ -51,7 +51,7 @@ export default function ProjectsSection({ data, onCardClick }) {
         <motion.section variants={stagger} initial="initial" animate="animate" className="projects-section">
             <motion.div className="section-header" variants={fadeUp}>
                 <h2 className="section-title">
-                    My <span className="gradient-text">Projects</span>
+                    Dự án <span className="gradient-text">Của Tôi</span>
                 </h2>
             </motion.div>
 

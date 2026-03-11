@@ -16,7 +16,7 @@ export default function AboutSection({ data }) {
         <motion.section variants={stagger} initial="initial" animate="animate">
             <motion.div className="section-header" variants={fadeUp}>
                 <h2 className="section-title">
-                    About <span className="gradient-text">Me</span>
+                    Về <span className="gradient-text">Tôi</span>
                 </h2>
             </motion.div>
 
@@ -41,7 +41,7 @@ export default function AboutSection({ data }) {
                 <motion.div variants={fadeUp}>
                     <h3 className="section-header" style={{ marginTop: 8 }}>
                         <span className="section-title" style={{ fontSize: '1.6rem' }}>
-                            Core <span className="gradient-text">Skills</span>
+                            Kỹ năng <span className="gradient-text">Cốt lõi</span>
                         </span>
                     </h3>
                     <motion.div className="skills-grid" variants={stagger}>

@@ -14,11 +14,11 @@ const iconMap = {
 };
 
 const navItems = [
-    { id: 'about', label: 'About Me', icon: <HiUser /> },
-    { id: 'experience', label: 'Experience', icon: <HiBriefcase /> },
-    { id: 'education', label: 'Education', icon: <HiAcademicCap /> },
-    { id: 'projects', label: 'Projects', icon: <HiSquares2X2 /> },
-    { id: 'others', label: 'Others', icon: <HiSparkles /> },
+    { id: 'about', label: 'Về tôi', icon: <HiUser /> },
+    { id: 'experience', label: 'Kinh nghiệm', icon: <HiBriefcase /> },
+    { id: 'education', label: 'Học vấn', icon: <HiAcademicCap /> },
+    { id: 'projects', label: 'Dự án', icon: <HiSquares2X2 /> },
+    { id: 'others', label: 'Khác', icon: <HiSparkles /> },
 ];
 
 export default function Sidebar({ data, activeSection, onNavClick, isOpen }) {
